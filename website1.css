@@ -46,7 +46,27 @@ a {
   font-size: 28px;
   margin: 0;
   padding: 0;
+  
+  
 }
+
+/*for text animation*/
+
+.text.animate-text {
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 
 /* Styles images */
 img {
@@ -280,4 +300,6 @@ img {
     size: 70px;
     left: 885px;
     top: 1100px;
-    text-align:
+    
+}
+}
